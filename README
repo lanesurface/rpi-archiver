@@ -1,0 +1,12 @@
+@author: Lane Surface
+version 1.0.0:
+-initial version
+-can encode utf8 and utf 16, along with latin1
+version 1.0.1:
+-saves directly to file
+-browse button
+-threaded
+
+This is a encoder for the Raspberry Pi (ie it changes file encoding)
+
+read LICENSE before distributing this software
