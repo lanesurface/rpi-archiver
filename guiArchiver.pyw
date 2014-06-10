@@ -1,16 +1,3 @@
-"""
-@author: lane surface
-*this software is free for distribution without the consent of the author
-*published under the MIT software lisense
-################################################################################
-version 1.0.0
--initial distribution
--main source code and class (srchiveViewer)
--initial archive types (UTF-8,UTF-16,Latin1)
--released in June of 2014 on Github
-################################################################################
-"""
-
 from tkinter import *
 from archiver import cmdArchiver
 import tkinter.filedialog
