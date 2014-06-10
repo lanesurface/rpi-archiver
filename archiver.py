@@ -22,11 +22,13 @@ class cmdArchiver():
         finally:
             print("error:could not recognize unicode character!")
     if __name__ == "__main__":
-        aoru = input("Archive or Unarchive? >>")
+        aoru = input("Archive or Unarchive? >>").lower()
         fileLocation = input("File Location >>")
         print("Types:\tutf8,\tutf16,\tlatin1")
         archiveType = input("Archive Type >>")
-        if aoru == "Archive":
+        if aoru == "archive":
             onEncode(archiveType,fileLocation)
-        elif aoru == "Unarchive":
+        elif aoru == "unarchive":
             onDecode(archiveType,fileLocation)
+        else:
+            print("There is no operation "+aoru+"!")
