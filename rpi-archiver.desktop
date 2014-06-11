@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=RPi-Archiver
+Comment=Handles File Encoding
+Exec=/root/rpi-archiver/guiArchiver.pyw
+Icon=/usr/share/pixmaps/openbox.png
+Terminal=false
+Type=Application
+Categories=Application;
+StartupNotify=true
