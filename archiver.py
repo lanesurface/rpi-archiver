@@ -16,7 +16,7 @@ class cmdArchiver():
             rd = open(archiveFileLocation,'r')
             for each_line in rd:
                 byteData = bytes(each_line,archiveFormatType)
-                decodedFile = each_line.decode(archiveFormatType)
+                decodedFile = byteData.decode(archiveFormatType)
                 wd = open(archiveFileLocation,'w')
                 wd.write(decodedFile)
         finally:
