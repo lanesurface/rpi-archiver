@@ -7,4 +7,5 @@ version 1.0.1:
 -browse button
 -threaded
 
-This is a encoder for the Raspberry Pi (ie it changes file encoding) published under the MIT license agreement
+This is a encoder for the Raspberry Pi (ie it changes file encoding)
+published under the MIT license agreement
