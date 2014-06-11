@@ -5,7 +5,9 @@ version 1.0.0:
 version 1.0.1:
 -saves directly to file
 -browse button
--threaded
+-threaded (coming soon)
 
 This is a encoder for the Raspberry Pi (ie it changes file encoding)
 published under the MIT license agreement
+
+Help needed to thread the module, current issues initializing the class threaded
