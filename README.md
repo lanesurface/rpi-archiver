@@ -1,3 +1,5 @@
+####This project is **NOT** working. It stands as a tribute to my early days as a programmer.
+
 @author: Lane Surface
 version 1.0.0:
 -initial version
